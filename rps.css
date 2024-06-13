@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-weight:bold;
+    font-size:20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .rockButton{
+    border:solid;
+    margin-right: 15px;
+    width: 150px;
+    height: 150px;
+    font-weight: bold;
+    border-radius:50%;
+    background-color:transparent;
+    color:white;
+    cursor:pointer;
+    transition:transform 0.2s ease; 
+  }
+  .rockButton:hover{
+    transform: scale(1.05);
+  }
+  .paperButton:hover{
+    transform:scale(1.05);
+  }
+  .paperButton{
+    transition:transform 0.2s ease; 
+    border:solid;
+    width: 150px;
+    height: 150px;
+    font-weight: bold;
+    border-radius:50%;
+    background-color:transparent;
+    color:white;
+    cursor:pointer;
+    margin-right:15px;
+  }
+  .scissorsButton:hover{
+    transform:scale(1.05);
+  }
+  .scissorsButton{
+    transition: transform 0.2s ease;
+    border:solid;
+    margin-right: 15px;
+    width: 150px;
+    height: 150px;
+    font-weight: bold;
+    border-radius:50%;
+    background-color:transparent;
+    color:white;
+    cursor:pointer;
+  }
+  .moves{
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+  }
+  .name{
+    display: flex;
+    justify-content: center;
+  }
+  .resetButton
+  {
+    border:solid;
+    margin-right: 10px;
+    padding-top:15px;
+    padding-left:15px;
+    padding-bottom:15px;
+    padding-right:15px;
+    font-weight: bold;
+    border-radius:10px;
+    background-color:transparent;
+    color:white;
+    cursor:pointer;
+    transition: transform 0.2s ease;
+  }
+  .resetButton:hover
+  {
+    transform: scale(1.1); 
+  }
+  .scoreReset{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+  }
+  .results{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+  }
+  .moveDisplay{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+  }
+  .move-icon{
+    height: 50px;
+  }
+  .display{
+    height: 40px;
+  }
+  .scoresDisplay{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+  }
